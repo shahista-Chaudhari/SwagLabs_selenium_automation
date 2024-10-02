@@ -1,10 +1,10 @@
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Automation of OrangeHRM Web Application Using Selenium,TestNG & Cucumber</h1> 
+ <h1 align="center">Automation of SwagLab Web Application Using Selenium andTestNG</h1> 
 
   <p align="center">
-    A web automation project to automate testing process of OrangeHRM employee management system built using Selenium, TestNG and Cucumber in Java.
+    A web automation project to automate testing process of SwagLab E-commerce Web Application built using Selenium and TestNG in Java.
     <br /><br/>
     <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
@@ -19,13 +19,13 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-[OrangeHRM application](https://opensource-demo.orangehrmlive.com/) automation testing using Selenium, TestNG, and Cucumber involves automating key HR processes like adding an employee, searching for the added employee, and deleting the account. Selenium is used for interacting with the web elements, while TestNG provides test case structuring and reporting. Cucumber is used to define test scenarios in a behavior-driven development (BDD) style.
+Automation of the [SwagLab e-commerce](https://www.saucedemo.com/) web application using Selenium and TestNG focuses on validating key functionalities like login, adding products to the cart, and placing an order. Selenium is employed for interacting with the web interface, while TestNG is used to manage test execution and reporting.
 
-* Adding an Employee: Automation script navigates to the "Add Employee" form, inputs necessary details, and submits.
-* Searching Employee: The script searches for the newly added employee by name or ID.
-* Deleting Employee: The employee record is selected and deleted, ensuring the account is removed successfully.
+* Login Functionality: Automation scripts simulate a user logging in with valid credentials.
+* Add Product to Cart: The script selects a product, adds it to the cart, and validates that the cart updates correctly by verifying the product count and details.
+* Place Order: The automation flow proceeds to checkout, fills in the necessary shipping and payment details, and confirms the order.
 
-![Automation Demonstration](./execution.gif)
+![Automation Demonstration](./output.gif)
 
 ### Built With
 * [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) as programming language
@@ -48,10 +48,10 @@ Steps are listed below to get this project up and running in your development en
 
 * Clone this repository in your target folder.
 ```
-git clone https://github.com/lavatech321/Orange_HRM_selenium_automation.git
+git clone https://github.com/lavatech321/SwagLabs_selenium_automation.git
 ```
 
-* Open _orange_hrm.automation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _orange_hrm.automation_ folder. 
+* Open _swaglab.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _swaglab.testautomation_ folder. 
   
 Optionally, run maven build command if you don't see "Maven Dependencies" folder:
 
@@ -61,7 +61,7 @@ mvn clean install
 
 You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
 
-* Open _orange_hrm.automation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _orange_hrm.automation_ folder. 
+* Open _swaglab.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _swaglab.testautomation_ folder. 
   
 * Execute the project using below maven command:
 
