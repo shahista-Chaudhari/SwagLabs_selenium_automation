@@ -4,7 +4,7 @@
  <h1 align="center">Automation of SwagLab Web Application Using Selenium andTestNG</h1> 
 
   <p align="center">
-    A web automation project to automate testing process of SwagLab E-commerce Web Application built using Selenium and TestNG in Java.
+    A web automation project to automate testing process of SwagLab E-commerce Web Application built using Selenium, TestNG and Cucumber in Java.
     <br /><br/>
     <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
@@ -32,12 +32,13 @@ Automation of the [SwagLab e-commerce](https://www.saucedemo.com/) web applicati
 * [Maven](https://maven.apache.org/) for Package Management and Build Automation
 * [Selenium](https://www.selenium.dev/) for Web Automation
 * [TestNG](https://testng.org/) for Java testing framework that supports annotations, parallel execution, and detailed reporting for efficient test automation.
+* [Cucumber](https://cucumber.io/docs/cucumber/) for writing BDD-style tests in Gherkin syntax.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-  Basic understanding of Java with Maven, Selenium and TestNG.
+  Basic understanding of Java with Maven, Selenium and TestNG  and Cucumber.
 
 ### Running the project
 Steps are listed below to get this project up and running in your development environment.
